@@ -11,7 +11,7 @@ repositories {
 }
 
 dependencies {
-    implementation(platform("com.google.cloud:libraries-bom:26.19.0"))
+    implementation(platform("com.google.cloud:libraries-bom:26.22.0"))
     implementation("com.google.cloud:google-cloud-bigquery")
     testImplementation(kotlin("test"))
 }
